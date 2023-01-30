@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Главная страница</title>
+
+    <link rel="stylesheet" type="text/css" href=".css/fonts.css" />
+    <link rel="stylesheet" type="text/css" href=".css/main.css" />
+    <link rel="stylesheet" type="text/css" href=".css/catalog.css" />
+    <link rel="stylesheet" type="text/css" href=".css/citata.css" />
+    <link rel="stylesheet" type="text/css" href=".css/about_us.css" />
+    <link rel="stylesheet" type="text/css" href=".css/question.css" />
+    <link rel="stylesheet" type="text/css" href=".css/HIW.css" />
+    <link rel="stylesheet" type="text/css" href=".css/media.css" />
+    <link rel="stylesheet" type="text/css" href=".css/nav.css" />
+    <link rel="stylesheet" type="text/css" href=".css/planshet.css" />
+    <link rel="stylesheet" type="text/css" href=".css/hits.css" />
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function () {
+            var currentScrollPos = window.pageYOffset;
+            // if ((prevScrollpos > currentScrollPos)) {
+            //     document.getElementById("navbar").style.top = "0";
+            //     document.getElementById("navbar").style.display = "flex";
+            //     document.getElementById("navbar").style.transition = "0.3s";
+            // }
+            // else {
+            //     document.getElementById("navbar").style.top = "-70px";
+            //     document.getElementById("navbar").style.transition = "0.3s";
+            // }
+            prevScrollpos = currentScrollPos;
+        }
+    </script>
+</head>
+
+
+<body>
+    <header>
+
+        <div class="background"></div>
+        <nav class="navbar" id="navbar">
+            <img class="navbar-logo" src="./картинки/logo_mini.png" alt="logo_mini">
+            <button class="navbar-burger" onclick="toggleMenu()"></button>
+        </nav>
+
+        <nav class="menu" onclick="toggleMenu()">
+            <a href="#catalog" style="animation-delay: 0.1s">Каталог</a>
+            <a href="#Как_это_работает?" style="animation-delay: 0.2s">Как это работает ?</a>
+            <a href="#A_what_with_delivery_?" style="animation-delay: 0.3s">А что с доставкой ?</a>
+            <a href="#About_us" style="animation-delay: 0.4s">О нас</a>
+            <a href="#Связаться" style="animation-delay: 0.5s">Связаться</a>
+        </nav>
+
+        <script type="text/javascript">
+            const toggleMenu = () => {
+                document.body.classList.toggle("open");
+            };  
+        </script>
+
+    </header>
+
+
+    <main>
+        <div class="flex_main">
+            <div>
+                <h1 style="padding-top:6vw ;" class="h1_transfer">
+                    Любимые бренды <br> <span>возвращаются</span>
+                </h1>
+                <p class="jost400_2">
+                    Если ты искал, где обновить гардероб, то ты в нужном месте. <br>
+                    Одевайся так, будто завтра выступаешь в Карнеги-Холл.
+                </p>
+                <form action="#catalog">
+                    <button class="button_main inter_22" style="padding: 18px 30px 15px;">
+                        Смотреть каталог
+                    </button>
+                </form>
+            </div>
+
+            <img src="./картинки/Frame 36.png" alt="Волна" class="waves">
+
+            <div class="krugmain flex_center">
+                <img src="./картинки/14.webp" alt="Логотип" class="Logotip">
+            </div>
+        </div>
+
+        <div class="more_media">
+            <div class="krug1"></div>
+            <div class="krug2"></div>
+            <div class="krug3"></div>
+            <div class="krug4"></div>
+        </div>
+
+    </main>
+
+    <section id="Hits" class="grid_hits">
+        <div class="hit_iteam">
+            <img src="./картинки/1 4.png" alt="Кроссовки" class="hit_img">
+            <div class="hit_description">
+                <h5 class="hit_title">Nike Air Max Sc CW4554-100</h5>
+                <p class="hit_price">13999руб &nbsp; &nbsp;<span class="hit_span">15999руб</span> </p>
+                <form action="#catalog">
+                    <button class="hit_button" href="#catalog"> КУПИТЬ </button>
+                </form>
+            </div>
+        </div>
+        <div class="hit_iteam">
+            <img src="./картинки/1 4.png" alt="Кроссовки" class="hit_img">
+            <div class="hit_description">
+                <h5 class="hit_title">Nike Air Max Sc CW4554-100</h5>
+                <p class="hit_price">13999руб &nbsp; &nbsp;<span class="hit_span">15999руб</span> </p>
+                <form action="#catalog">
+                    <button class="hit_button" href="#catalog"> КУПИТЬ </button>
+                </form>
+            </div>
+        </div>
+        <div class="hit_iteam">
+            <img src="./картинки/1 4.png" alt="Кроссовки" class="hit_img">
+            <div class="hit_description">
+                <h5 class="hit_title">Nike Air Max Sc CW4554-100</h5>
+                <p class="hit_price">13999руб &nbsp; &nbsp;<span class="hit_span">15999руб</span> </p>
+                <form action="#catalog">
+                    <button class="hit_button" href="#catalog"> КУПИТЬ </button>
+                </form>
+            </div>
+        </div>
+        <div class="hit_iteam">
+            <img src="./картинки/1 4.png" alt="Кроссовки" class="hit_img">
+            <div class="hit_description">
+                <h5 class="hit_title">Nike Air Max Sc CW4554-100</h5>
+                <p class="hit_price">13999руб &nbsp; &nbsp;<span class="hit_span">15999руб</span> </p>
+                <form action="#catalog">
+                    <button class="hit_button" href="#catalog"> КУПИТЬ </button>
+                </form>
+            </div>
+        </div>
+        <div class="hit_iteam">
+            <img src="./картинки/1 4.png" alt="Кроссовки" class="hit_img">
+            <div class="hit_description">
+                <h5 class="hit_title">Nike Air Max Sc CW4554-100</h5>
+                <p class="hit_price">13999руб &nbsp; &nbsp;<span class="hit_span">15999руб</span> </p>
+                <form action="#catalog">
+                    <button class="hit_button" href="#catalog"> КУПИТЬ </button>
+                </form>
+            </div>
+        </div>
+        <div class="hit_iteam">
+            <img src="./картинки/1 4.png" alt="Кроссовки" class="hit_img">
+            <div class="hit_description">
+                <h5 class="hit_title">Nike Air Max Sc CW4554-100</h5>
+                <p class="hit_price">13999руб &nbsp; &nbsp;<span class="hit_span">15999руб</span> </p>
+                <form action="#catalog">
+                    <button class="hit_button" href="#catalog"> КУПИТЬ </button>
+                </form>
+            </div>
+        </div>
+        <div class="hit_iteam">
+            <img src="./картинки/1 4.png" alt="Кроссовки" class="hit_img">
+            <div class="hit_description">
+                <h5 class="hit_title">Nike Air Max Sc CW4554-100</h5>
+                <p class="hit_price">13999руб &nbsp; &nbsp;<span class="hit_span">15999руб</span> </p>
+                <form action="#catalog">
+                    <button class="hit_button" href="#catalog"> КУПИТЬ </button>
+                </form>
+            </div>
+        </div>
+        <div class="hit_iteam">
+            <img src="./картинки/1 4.png" alt="Кроссовки" class="hit_img">
+            <div class="hit_description">
+                <h5 class="hit_title">Nike Air Max Sc CW4554-100</h5>
+                <p class="hit_price">13999руб &nbsp; &nbsp;<span class="hit_span">15999руб</span> </p>
+                <form action="#catalog">
+                    <button class="hit_button" href="#catalog"> КУПИТЬ </button>
+                </form>
+            </div>
+        </div>
+        <div class="flex_end_end golubi" style="flex-direction: column-reverse; transform:translate(65vw, -35vw);">
+            <img src="./картинки/golub2.svg" alt="golub2" class="golub2">
+            <img src="./картинки/golub1.svg" alt="golub1" class="golub1">
+        </div>
+    </section>
+
+
+    <section id="catalog" class="catalog_media" style="transform:translateY(-25vw) ;">
+        <div class="catalog_text_media">
+            <p class="jost400_2 flex_center" style="margin-top: 2vw; text-align: center;">
+                Неограниченное количество годного шмота представлено в каталоге,
+                где найдётся что-то по душе как уже опытному хайпбисту, так и начинающему моднику
+            </p>
+        </div>
+
+        <div class="container">
+            <a href="//НАДО СЮДА ПРОПИСАТЬ ССЫЛКУ" class="ramochka_child">
+                <div class="btn">
+                    Кроссовки
+                    <img src="./картинки/Vector.svg" alt="купить">
+                </div>
+            </a>
+
+            <a href="//НАДО СЮДА ПРОПИСАТЬ ССЫЛКУ" class="ramochka_man">
+                <div class="btn">
+                    Одежда
+                    <img src="./картинки/Vector.svg" alt="купить">
+                </div>
+            </a>
+
+            <a href="//НАДО СЮДА ПРОПИСАТЬ ССЫЛКУ" class="ramochka_woman">
+                <div class="btn">
+                    Аксессуары
+                    <img src="./картинки/Vector.svg" alt="купить">
+                </div>
+            </a>
+        </div>
+        <div class="flex_center" style="margin-top: 3vw;">
+            <button class="catalog_button catalog_btn_font">
+                Каталог
+            </button>
+        </div>
+
+
+    </section>
+    <img src="./картинки/cesar.svg" alt="cesar" class="cesar" style="transform: scale(-1,1);">
+    <img src="./картинки/david.svg" alt="david" class="david" style="transform: scale(-1,1);">
+    
+
+    <section id="Как_это_работает?" class="flex">
+
+        <div #левая сторона>
+            <h2 class="Montserrat700_2">Как это <br> работает ?</h2>
+            <p class="jost400_5">* очень просто</p>
+
+            <ul style="margin-top: 1vw;">
+                <p class="hiw_font">
+                    Денег нет, но мы держимся:
+                </p>
+                <br>
+                <li class="hiw_font" style="width: 88%;">
+                    ⁃ Работаем с сайтом POIZON. Все товары - оригинал, да еще и не по цене почки!
+                </li>
+                <br>
+                <li class="hiw_font" style="width: 88%;">
+                    ⁃ Доставка входит в стоимость кроссовок: вам не нужно отдельно её считать и
+                    оплачивать.
+                </li>
+                <br>
+                <li class="hiw_font">
+                    ⁃ Мы принимаем возврат, если вещи не подошли.
+                </li>
+            </ul>
+
+            <div class="flex_colomn ramka_hiw" style="margin-top: 15px;">
+                <div class="image_1_4">
+                    <img src="/картинки/switch.png" alt="" style="width: 35.2vw;">
+                </div>
+                <div class="grid_hiw_3">
+                    <h4 style="padding-left: 20px;">
+                        Cбор заказа
+                    </h4>
+                    <div class="flex_items_center">
+                        <div style="border: 2px solid #29D9CE; height: 2.5vw;">
+                        </div>
+                    </div>
+                    <p class="jost400_7" style="width:80% ;">
+                        В течении час вы получите карточку-подтверждение о выкупе товара.
+                    </p>
+                </div>
+            </div>
+
+            <div>
+                <div class="grid_hiw_4" style="margin-top: 2vw;">
+                    <p class="jost500_2">1</p>
+                    <p class="jost500_2">2</p>
+                    <p class="jost500_2">3</p>
+                    <p class="jost500_2">4</p>
+                </div>
+                <div class="palochka">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="grid_hiw_2" #правая сторона>
+            <div class="flex_items_center">
+                <img src="./картинки/recept.svg" alt="recept">
+                &ensp;&ensp;
+                <p class="hiw_list">Ваш заказ</p>
+            </div>
+            <div class="flex_items_center">
+                <img src="./картинки/shopping_bag_FILL0_wght400_GRAD0_opsz48 1.svg" alt="shopping_bag">
+                &ensp;&ensp;
+                <p class="hiw_list">Сбор заказа</p>
+            </div>
+            <div class="flex_items_center">
+                <img src="./картинки/carbon_delivery-parcel.svg" alt="carbon_delivery-parcel">
+                &ensp;&ensp;
+                <p class="hiw_list">Доставка до вас</p>
+            </div>
+            <div class="flex_items_center">
+                <img src="./картинки/ic_round-done.png" alt="ic_round-done">
+                &ensp;&ensp;
+                <p class="hiw_list">Завершение работы</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="A_what_with_delivery_?">
+
+        <h2 class="Montserrat700_2" style="margin-top: 5vw;">
+            А что с <br> доставкой?
+        </h2>
+
+        <div class="grid_hiw_5">
+            <div class="flex" style="margin-top: 2vw ;">
+                <img src="./картинки/bi_truck.svg" alt="truck">
+                <div style="padding-left: 2vw;">
+                    <h3 style="color: #29D9CE;">Доставляем по России</h3>
+                    <br>
+                    <p class="jost400_7" style="width: 28vw ;">
+                        Так что есть возможность посверкать новыми Yeezy на улицах Улан-Удэ.
+                    </p>
+                </div>
+            </div>
+            <div class="flex" style="margin-top: 2vw ;">
+                <img src="./картинки/iconoir_box-iso.svg" alt="iconoir_box">
+                <div style="padding-left: 2vw;">
+                    <h3 style="color: #29D9CE;">В прекрасной упаковке</h3>
+                    <br>
+                    <p class="jost400_7" style="width: 28vw ;">
+                        Доставим в оригинальной упаковке вместе с сертификатами POIZON’а
+                    </p>
+                </div>
+            </div>
+            <div class="flex" style="margin-top: 2vw ;">
+                <img src="./картинки/ion_pricetags-outline.svg" alt="truck">
+                <div style="padding-left: 2vw;">
+                    <h3 style="color: #29D9CE;">С прекрасной ценой</h3>
+                    <br>
+                    <p class="jost400_7" style="width: 28vw ;">
+                        Так что можно спать спокойно
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="About_us">
+
+        <div class="flex_end_1">
+            <img src="./картинки/NEW BALANCE MS 327 LY1 - AFEW STORE.png" alt="box"
+                style="width:25vw; transform: translate(4vw); margin-top: 2vw;">
+
+            <div class="flex_colomn">
+                <p class="Roboto400 text1" style="margin-top: 2vw;  ">
+                    Congue arcu aliquam amet sapien, sollicitudin egestas.
+                    Sed volutpat tristique bibendum senectus consectetur sagittis, at.
+                    Euismod praesent viverra rutrum eget tellus dignissim habitant mauris elit.
+                    Integer fringilla purus faucibus at viverra erat id.
+                </p>
+
+                <p class="Roboto400 text1">
+                    Congue arcu aliquam amet sapien, sollicitudin egestas.
+                    Sed volutpat tristique bibendum senectus consectetur sagittis, at.
+                </p>
+
+            </div>
+            <img src="./картинки/righthand.svg" alt="righthand" style="width: 30vw;">
+        </div>
+
+        <div class="flex_end_end">
+            <p class="Montserrat700_citata flex_end_end"
+                style="width: 18vw ; font-size: 2.5vw; margin-right: 8vw; transform: translate(0vw, -2vw);">
+                Congue arcu aliquam amet
+            </p>
+        </div>
+
+        <div class="flex_end_1">
+            <img src="./картинки/lefthand.svg" alt="lefthand" style="width: 24vw ;">
+
+            <div class="flex_colomn">
+                <p class="Roboto400 text">
+                    Congue arcu aliquam amet sapien, sollicitudin egestas.
+                    Sed volutpat tristique bibendum senectus consectetur sagittis, at.
+                    Euismod praesent viverra rutrum eget tellus dignissim habitant mauris elit.
+                    Integer fringilla purus faucibus at viverra erat id.
+                </p>
+
+                <p class="Roboto400 text" style="width: 25vw; ">
+                    Congue arcu aliquam amet sapien, sollicitudin egestas.
+                    Sed volutpat tristique bibendum senectus consectetur sagittis, at.
+                </p>
+            </div>
+            <div>
+                <img src="./картинки/whitenike.png" alt="box" style="width:25vw ;transform: translate(-2vw);">
+            </div>
+        </div>
+    </section>
+
+    <section id="Связаться" class="flex_end_1" style="margin-left: 7vw;">
+        <div>
+            <h2>
+                Остались вопросы?
+            </h2>
+            <p class="bledno">
+                С радостью ответим на все из них
+            </p>
+            <div class="flex">
+                <div class="flex_colomn">
+                    <a href="https://www.vk.ru/" class="we_in_VK flex_main">
+                        <div>
+                            <h5 class="text_vk_tg">Мы в VK</h5>
+                            <p class="text_vk" style="padding: 2vw 3vw 0vw 2vw;">Congue arcu aliquam amet sapien,
+                                sollicitudin egestas</p>
+                        </div>
+                        <img src="./картинки/vk.svg" alt="vk_icon" style="transform: translate(-1vw, 1vw);">
+                    </a>
+                    <a href="https://www.tg.ru/" class="we_in_TG flex_main">
+                        <div>
+                            <h5 class="text_vk_tg">Мы в Telegram</h5>
+                            <p class="text_tg" style="padding: 2vw 3vw 0vw 2vw;">Congue arcu aliquam amet sapien,
+                                sollicitudin egestas</p>
+                        </div>
+
+                        <img src="./картинки/tg.svg" alt="tg_icon" style="transform: translate(-1vw, 1vw);">
+                    </a>
+                </div>
+
+                <a href="https://www.avito.ru/" class="we_in_avito flex_avito">
+                    <div class="flex">
+                        <img src="./картинки/WTF.svg" alt="WTF" class="WTF">
+                        <p class="text_avito">Да, оно еще существует</p>
+                    </div>
+                    <h5 class="text_avito_main">
+                        Мы на <br>
+                        Avito
+                    </h5>
+                    <img src="./картинки/avito.svg" alt="avito_icon" style="transform: translate(7.3vw, 1vw);">
+                </a>
+            </div>
+
+            <p class="konec">
+                Congue arcu aliquam amet sapien, sollicitudin egestas.
+                Sed volutpat tristique bibendum senectus consectetur sagittis, at.
+            </p>
+
+            <p class="prava">
+                © 2022 Flyboots. Все права защищены.
+            </p>
+
+        </div>
+        <div>
+            <img src="./картинки/end.svg" alt="end" style="width: 47vw;">
+        </div>
+    </section>
+</body>
+
+</html>

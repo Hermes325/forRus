@@ -1,0 +1,17 @@
+
+.david {
+    width        : 22.3vw;
+    height       : 32.5vw;
+    margin-bottom: 3vw;
+    transform: scale(-1,1);
+}
+
+.cesar {
+    width     : 17.26vw;
+    height    : 25.76vw;
+    overflow-x: hidden;
+    transform: scale(-1,1);
+}
+
+
+
