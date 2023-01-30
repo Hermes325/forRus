@@ -7,7 +7,7 @@
 }
 
 .flex_colomn {
-    
+
     flex-direction: column;
 }
 
@@ -24,9 +24,29 @@
     margin-top: 2vw;
 }
 
-.flex_end_end
-{
-    display: flex;
+.flex_end_end {
+    display        : flex;
     justify-content: flex-end;
 
+}
+
+.AU_grid {
+    display              : grid;
+    grid-template-columns: repeat(3 1fr);
+}
+
+.bc_block {
+    background   : #29D9CE;
+    border-radius: 10px;
+    position     : absolute;
+    height       : 24vw;
+    width        : 24vw;
+    z-index      : -1;
+    transform    : translate(-0.5vw, 1.5vw);
+}
+
+.right_hand {
+    position: absolute;
+    right   : 0;
+    width   : 30vw;
 }
